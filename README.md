@@ -177,4 +177,4 @@ Human-directed GPU engineering with AI assistance
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE) for details
