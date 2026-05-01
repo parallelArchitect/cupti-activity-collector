@@ -178,3 +178,12 @@ Human-directed GPU engineering with AI assistance
 ## License
 
 MIT â€” see [LICENSE](LICENSE) for details
+
+## Companion tools
+
+[`tools/cupti-probe`](tools/cupti-probe/) — capability-discovery probe for the local CUDA device.
+Subcommand-driven (`sweep`, `single`, `records-dump`, `nvlink-load`, plus the Profiler API
+parallel: `profiler-init`, `profiler-list`, `profiler-collect-rp`). Hardware/library banner
+on every run, JSON output. Sister to [parallelArchitect/cupti-uma-probe](https://github.com/parallelArchitect/cupti-uma-probe).
+Useful for surfacing failure modes and hardware capabilities BEFORE running the full collector.
+MIT licensed.
